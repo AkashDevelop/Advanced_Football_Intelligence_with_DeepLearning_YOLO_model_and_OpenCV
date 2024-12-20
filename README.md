@@ -38,6 +38,25 @@ An **advanced football tracking** system leveraging cutting-edge **computer visi
 
 ---
 
+## 🔨 Setup Guide
+
+### Perspective Transformation
+
+1. **Define Coordinates:** Select four points on the field in the video frame.
+2. **Map Real-World Measurements:** Assign real-world (meter-based) values to these points.
+3. **Apply Transformation:**
+   ```python
+   import cv2
+   import numpy as np
+
+   src_pts = np.float32([[x1, y1], [x2, y2], [x3, y3], [x4, y4]])  # Points in video
+   dst_pts = np.float32([[X1, Y1], [X2, Y2], [X3, Y3], [X4, Y4]])  # Real-world coordinates
+
+   matrix = cv2.getPerspectiveTransform(src_pts, dst_pts)
+   warped = cv2.warpPerspective(frame, matrix, (width, height))
+
+---
+
 ## 🔧 Advanced Setup
 
 ### Configure Perspective Transformation
