@@ -4,7 +4,6 @@ import sys
 sys.path.append(os.path.dirname(__file__))
 
 from my_tracker import Trackers
-
 def main():
     #read video
     video_frames=read_video('input_video/08fd33_4.mp4')
