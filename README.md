@@ -5,7 +5,7 @@
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-green?style=flat-square&logo=scikitlearn)
 ![Computer Vision](https://img.shields.io/badge/Computer%20Vision-OpenCV-orange?style=flat-square&logo=opencv)
 
-An **advanced football tracking** system leveraging cutting-edge **computer vision and machine learning techniques**. This project provides actionable insights into player performance and match dynamics through automated detection, tracking, and analysis.
+An **advanced football tracking** system leveraging cutting-edge **computer vision and machine learning techniques**. This project provides actionable insights into player performance and match dynamics through automated detection, tracking player performance.
 
 
 ![Football Tracking](https://github.com/user-attachments/assets/8b3e06aa-6c3a-4386-a16c-40f005e39e34)
